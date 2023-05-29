@@ -29,8 +29,5 @@ As a "single threaded" server it uses asyncio to handle multiple connections. Ho
 
 ## Security
 
-OpenBSD is a great source of inspiration for this project. For this reason, pyashar tries to follow the same security principles and practices.
+OpenBSD is a great source of inspiration for this project. It may be considered to implement some of its security features in the future.
 
-### Privelege separation
-
-pyshar drops all priveleges after opening the listening socket. All the functions
